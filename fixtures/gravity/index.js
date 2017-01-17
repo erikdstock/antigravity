@@ -7,6 +7,7 @@ import { writeFile } from "fs"
 
 import request from "request-promise"
 // request.debug = true
+const LATEST = "v2"
 
 async function authenticate(email: string, password: string): Promise<string> {
   try {
@@ -34,8 +35,22 @@ async function authenticate(email: string, password: string): Promise<string> {
   }
 }
 
+function apiVersionUrl(fixturePath: string) {
+  const matchLatest = dirname(fixturePath).match(latestApi())
+  return (matchLatest
+    ? `https://api.artsy.net/api/${matchLatest[1]}/${basename(fixturePath, ".json")}`
+    : `https://api.artsy.net/${dirname(fixturePath)}/${basename(fixturePath, ".json")}`
+  )
+}
+
+/* eslint-disable no-useless-escape */
+function latestApi() {
+  return new RegExp(`api\/${LATEST}\/(.+)$`)
+}
+/* eslint-enable no-useless-escape */
+
 async function get(token: string, fixturePath: string) {
-  const url = `https://api.artsy.net/${dirname(fixturePath)}/${basename(fixturePath, ".json")}`
+  const url = apiVersionUrl(fixturePath)
   console.log(url)
   try {
     const response = await request({

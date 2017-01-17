@@ -26,12 +26,13 @@
   "consignable": true,
   "deathday": "1987",
   "nationality": "American",
-  "published_artworks_count": 1605,
-  "forsale_artworks_count": 1103,
-  "artworks_count": 2951,
+  "published_artworks_count": 1794,
+  "forsale_artworks_count": 1220,
+  "artworks_count": 3180,
   "original_width": null,
   "original_height": null,
-  "partner_shows_count": 284,
+  "partner_shows_count": 292,
+  "displayable_partner_shows_count": 238,
   "image_url": "https://d32dm0rphc51dk.cloudfront.net/PFufT6nMKNwLOpPEezf4Ww/:version.jpg",
   "image_versions": [
     "four_thirds",
@@ -45,12 +46,13 @@
     "square": "https://d32dm0rphc51dk.cloudfront.net/PFufT6nMKNwLOpPEezf4Ww/square.jpg",
     "tall": "https://d32dm0rphc51dk.cloudfront.net/PFufT6nMKNwLOpPEezf4Ww/tall.jpg"
   },
-  "follow_count": 28358,
+  "follow_count": 32322,
   "alternate_names": [
     "Warhol, Andrew",
     "Warhola, Andrew",
     "וורהול, אנדי"
   ],
   "display_auction_link": true,
-  "hide_auction_link": false
+  "hide_auction_link": false,
+  "exclude_from_criteo": false
 }

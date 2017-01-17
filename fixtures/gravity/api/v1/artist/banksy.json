@@ -26,12 +26,13 @@
   "consignable": true,
   "deathday": "",
   "nationality": "British",
-  "published_artworks_count": 287,
-  "forsale_artworks_count": 229,
-  "artworks_count": 460,
+  "published_artworks_count": 320,
+  "forsale_artworks_count": 247,
+  "artworks_count": 507,
   "original_width": 1598,
   "original_height": 1184,
-  "partner_shows_count": 39,
+  "partner_shows_count": 46,
+  "displayable_partner_shows_count": 45,
   "image_url": "https://d32dm0rphc51dk.cloudfront.net/X9vVvod7QY73ZwLDSZzljw/:version.jpg",
   "image_versions": [
     "four_thirds",
@@ -45,8 +46,9 @@
     "square": "https://d32dm0rphc51dk.cloudfront.net/X9vVvod7QY73ZwLDSZzljw/square.jpg",
     "tall": "https://d32dm0rphc51dk.cloudfront.net/X9vVvod7QY73ZwLDSZzljw/tall.jpg"
   },
-  "follow_count": 21265,
+  "follow_count": 25601,
   "alternate_names": null,
   "display_auction_link": true,
-  "hide_auction_link": false
+  "hide_auction_link": false,
+  "exclude_from_criteo": false
 }

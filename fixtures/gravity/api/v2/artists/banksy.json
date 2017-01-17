@@ -1,0 +1,48 @@
+{
+  "id": "4dd1584de0091e000100207c",
+  "created_at": "2011-05-16T17:01:01+00:00",
+  "updated_at": "2017-01-17T22:18:13+00:00",
+  "name": "Banksy",
+  "sortable_name": "Banksy",
+  "gender": "male",
+  "birthday": "",
+  "hometown": "Bristol, United Kingdom",
+  "location": "",
+  "nationality": "British",
+  "image_versions": [
+    "four_thirds",
+    "large",
+    "square",
+    "tall"
+  ],
+  "_links": {
+    "thumbnail": {
+      "href": "https://d32dm0rphc51dk.cloudfront.net/X9vVvod7QY73ZwLDSZzljw/four_thirds.jpg"
+    },
+    "image": {
+      "href": "https://d32dm0rphc51dk.cloudfront.net/X9vVvod7QY73ZwLDSZzljw/{image_version}.jpg",
+      "templated": true
+    },
+    "self": {
+      "href": "https://api.artsy.net/api/artists/4dd1584de0091e000100207c"
+    },
+    "permalink": {
+      "href": "http://www.artsy.net/artist/banksy"
+    },
+    "artworks": {
+      "href": "https://api.artsy.net/api/artworks?artist_id=4dd1584de0091e000100207c"
+    },
+    "published_artworks": {
+      "href": "https://api.artsy.net/api/artworks?artist_id=4dd1584de0091e000100207c&published=true"
+    },
+    "similar_artists": {
+      "href": "https://api.artsy.net/api/artists?similar_to_artist_id=4dd1584de0091e000100207c"
+    },
+    "similar_contemporary_artists": {
+      "href": "https://api.artsy.net/api/artists?similar_to_artist_id=4dd1584de0091e000100207c&similarity_type=contemporary"
+    },
+    "genes": {
+      "href": "https://api.artsy.net/api/genes?artist_id=4dd1584de0091e000100207c"
+    }
+  }
+}

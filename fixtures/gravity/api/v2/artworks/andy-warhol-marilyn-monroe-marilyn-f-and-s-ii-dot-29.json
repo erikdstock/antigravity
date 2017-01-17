@@ -1,0 +1,121 @@
+{
+  "id": "56d73c25275b245540000260",
+  "created_at": "2016-03-02T19:16:53+00:00",
+  "updated_at": "2016-12-13T18:39:18+00:00",
+  "title": "Marilyn Monroe (Marilyn) F&S II.29",
+  "category": "Print",
+  "medium": "Screenprint on paper",
+  "date": "1967",
+  "dimensions": {
+    "in": {
+      "text": "36 × 36 in",
+      "height": 36,
+      "width": 36,
+      "depth": null,
+      "diameter": null
+    },
+    "cm": {
+      "text": "91.4 × 91.4 cm",
+      "height": 91.4,
+      "width": 91.4,
+      "depth": null,
+      "diameter": null
+    }
+  },
+  "website": "",
+  "signature": "Signed in pencil and numbered with a rubber stamp on verso",
+  "series": "Marilyn Monroe 1967",
+  "provenance": "",
+  "literature": "Andy Warhol Prints Catalogue Raisonne 1962-1987 Feldman/Schellmann Fourth Edition II.29\r\n",
+  "exhibition_history": "",
+  "collecting_institution": "",
+  "additional_information": "",
+  "image_rights": "From the portfolio published by Factory Additions, New York. Printer: Aetna Silkscreen Products Inc., New York. ",
+  "blurb": "",
+  "unique": false,
+  "cultural_maker": null,
+  "can_inquire": true,
+  "can_acquire": false,
+  "can_share": true,
+  "sale_message": "$119,000",
+  "sold": false,
+  "image_versions": [
+    "square",
+    "small",
+    "large",
+    "tall",
+    "medium_rectangle",
+    "medium",
+    "large_rectangle",
+    "larger",
+    "normalized"
+  ],
+  "_links": {
+    "thumbnail": {
+      "href": "https://d32dm0rphc51dk.cloudfront.net/krcyYTMC9oF5eJRv1MtWqw/medium.jpg"
+    },
+    "image": {
+      "href": "https://d32dm0rphc51dk.cloudfront.net/krcyYTMC9oF5eJRv1MtWqw/{image_version}.jpg",
+      "templated": true
+    },
+    "partner": {
+      "href": "https://api.artsy.net/api/partners/5339bddd9c18db3e38000091"
+    },
+    "self": {
+      "href": "https://api.artsy.net/api/artworks/56d73c25275b245540000260"
+    },
+    "permalink": {
+      "href": "http://www.artsy.net/artwork/andy-warhol-marilyn-monroe-marilyn-f-and-s-ii-dot-29"
+    },
+    "genes": {
+      "href": "https://api.artsy.net/api/genes?artwork_id=56d73c25275b245540000260"
+    },
+    "artists": {
+      "href": "https://api.artsy.net/api/artists?artwork_id=56d73c25275b245540000260"
+    },
+    "similar_artworks": {
+      "href": "https://api.artsy.net/api/artworks?similar_to_artwork_id=56d73c25275b245540000260"
+    }
+  },
+  "_embedded": {
+    "editions": [
+      {
+        "id": "585040567622dd6455000561",
+        "created_at": "2016-12-13T18:39:18+00:00",
+        "updated_at": "2016-12-13T18:39:18+00:00",
+        "dimensions": {
+          "in": {
+            "text": "36 × 36 in",
+            "height": 36,
+            "width": 36,
+            "depth": null,
+            "diameter": null
+          },
+          "cm": {
+            "text": "91.4 × 91.4 cm",
+            "height": 91.4,
+            "width": 91.4,
+            "depth": null,
+            "diameter": null
+          }
+        },
+        "editions": "Edition of 250",
+        "size": "250",
+        "available_editions": null,
+        "artist_proofs": null,
+        "prototypes": null,
+        "can_acquire": false,
+        "sale_message": "$119,000",
+        "sold": false,
+        "_links": {
+          "artwork": {
+            "href": "https://api.artsy.net/api/artworks/56d73c25275b245540000260"
+          },
+          "self": {
+            "href": "https://api.artsy.net/api/editions/585040567622dd6455000561?artwork_id=56d73c25275b245540000260"
+          }
+        }
+      }
+    ]
+  }
+}
